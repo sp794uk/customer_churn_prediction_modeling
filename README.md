@@ -33,14 +33,24 @@ The project's goal is to research, test, and compare various machine learning al
 In the future, custom revenue metrics could be included into our model to contextualise the efficacy of these algorithms. Moreover, we hope to test the performance of our model with more varied datasets and algorithms.
 
 ## References:
-[1] Bernd W. Wirtz 1 and Peter Daiser 2, Business Model Development: A Customer-Oriented Perspective Journal of Business Models (2018), Vol. 6, No. 3, pp. 24-44
+[1] Bernd W. Wirtz 1 and Peter Daiser 2, Business Model Development: A Customer-Oriented Perspective Journal of Business Models (2018), Vol. 6, No. 3, pp. 24-44.
+
 [2] Wei CP, Chiu IT. Turning telecommunications call details to churn prediction: a data mining approach. Expert Syst Appl. 2002;23(2):103–12.
+
 [3] Qureshii SA, Rehman AS, Qamar AM, Kamal A, Rehman A. Telecommunication subscribers’ churn prediction model using machine learning. In: Eighth international conference on digital information management. 2013. p. 131–6.
+
 [4] Ascarza E, Iyengar R, Schleicher M. The perils of proactive churn prevention using plan recommendations: evidence from a field experiment. J Market Res. 2016;53(1):46–60.
-[5] M.A.H.Farquadabc, VadlamaniRavia, S. BapiRajub. Churn prediction using comprehensible support vector machine: An analytical CRM application
-[6] W. Verbeke, D. Martens, C. Mues, B. BaesensBuilding comprehensible customer churn prediction models with advanced rule induction techniques Expert Syst. Appl., 38 (3) (2011), pp. 2354-2364
-[7] M.R. Colgate, P.J. DanaherImplementing a customer relationship strategy: the asymmetric impact of poor versus excellent execution J. Acad. Mark. Sci., 28 (3) (2000), pp. 375-387,
-[8] J. Ganesh, M.J. Arnold, K.E. ReynoldsUnderstanding the customer base of service providers: an examination of the differences between switchers and stayers
+
+[5] M.A.H.Farquadabc, VadlamaniRavia, S. BapiRajub. Churn prediction using comprehensible support vector machine: An analytical CRM application.
+
+[6] W. Verbeke, D. Martens, C. Mues, B. BaesensBuilding comprehensible customer churn prediction models with advanced rule induction techniques Expert Syst. Appl., 38 (3) (2011), pp. 2354-2364.
+
+[7] M.R. Colgate, P.J. DanaherImplementing a customer relationship strategy: the asymmetric impact of poor versus excellent execution J. Acad. Mark. Sci., 28 (3) (2000), pp. 375-387.
+
+[8] J. Ganesh, M.J. Arnold, K.E. ReynoldsUnderstanding the customer base of service providers: an examination of the differences between switchers and stayers.
+
 [9] Amy Gallo, The Value of Keeping the Right Customers, Harvard Business Review 2014.
-[10] R.T. Rust, A.J. ZahorikCustomer satisfaction, customer retention, and market share J. Retail., 69 (2) (1993), pp. 193-215,
+
+[10] R.T. Rust, A.J. ZahorikCustomer satisfaction, customer retention, and market share J. Retail., 69 (2) (1993), pp. 193-215.
+
 [11] D.V. den Poel, B. LarivièreCustomer attrition analysis for financial services using proportional hazard models.
