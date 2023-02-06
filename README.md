@@ -32,7 +32,7 @@ The project's goal is to research, test, and compare various machine learning al
 
 In the future, custom revenue metrics could be included into this model to contextualise the efficacy of applied algorithms. Moreover, we hope to test the performance of our model with more varied datasets and algorithms.
 
-## Conclusion:
+## Analysis and Conclusion:
 _Which model is best for the telecom operator?_
 
 The classifiers are unable to achieve the high accuracy scores reported by Sahar F. Sabbeh in the Literature Review section 3.1, presumably because the churn and no-churn target classes in our dataset are highly overlapping. This makes identifying a perfect decision boundary without sacrificing precision or recall difficult for classifiers. Furthermore, our AUC using the XGBOOST algorithm agrees with the score reported in section 3.1, despite the fact that their experiments were conducted on a different dataset and tested on a big data infrastructure. This reflects the impact of inherent (training) data features on performance, as well as data pre-processing prior to applying machine learning algorithms.
