@@ -2,4 +2,4 @@
 
 ![alt text](https://github.com/sp794uk/customer_churn_prediction_modeling/blob/main/Images/banner.jpg "banner image")
 
-The customer churn is said to occur when a customer ends their relationship with a company. Owing to its direct impact on the revenue, it is one of the most important concerns for companies. In this project we aim to implement and compare performance of churn prediction models obtained using different machine learning algorithms. The performance of selected models is evaluated on a public dataset of customers in a Telecom Company using standard performance measures.
+When a customer terminates their relationship with a company, this is referred to as customer churn. It is one of the most important concerns for businesses because of its direct impact on revenue. The goal of this project is to implement and compare the performance of different churn prediction models. The performance of selected models is evaluated using standard performance measures on a public dataset of customers in a telecom company.
