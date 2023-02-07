@@ -32,12 +32,15 @@ The project's goal is to research, test, and compare various machine learning al
 
 In the future, custom revenue metrics could be included into this model to contextualise the efficacy of applied algorithms. Moreover, we hope to test the performance of our model with more varied datasets and algorithms.
 
-## Data and Methadology: 
+## Data and Experiments: 
 The Dataset used in this study is an IBM sample dataset for a telecom operator collected from Kaggle open data website. The data consists of 7043 records, and each record is defined by the 21 attributes, as shown in Fig 1 below. The attributes include customer demographic information, billing information, telco services, customer relationship variables etc. and the target attribute is binary reflecting whether the customer will churn.
 
 Machine learning methods seem appropriate for customer churn prediction problem, as the target class depends on several independent customer related attributes. Furthermore, businesses are continually collecting customer data and thus generating a vast amount of data for processing. 
 
 The experiments were conducted on one single machine to implement churn prediction algorithms. We used Python 3.8.3 (Anaconda3 4.9.2) and Jupyter Notebook to execute machine learning algorithms on our dataset and for visualization.
+
+Since our dataset has a target class imbalance of 7:3, we decided to compensate for it by using class-weighted learning. In class-weighted learning, a weighted cost function is used. This means that misclassifying a sample from the minority class will cost the classifiers more than misclassifying a majority class sample. In most of the Sklearn classifiers, class-weighted learning can be enabled by setting class_weight='balanced'. However, KNN estimator in Scikit-learn does not provide a way to pass class-weights to facilitate class-weighted learning. So, using KNN algorithm, we decided to compare the impact of class imbalance on its performance as class-weights are not applied.
+Additionally, we selected Logistic Regression algorithm as it offers one of the most popular statistical technique for binary classification. Further, from the literature survey on churn prediction, boosting methods and XGBOOST, in particular, have been reported to be most successful. So, we were curious to test our model using XGBOOST.
 
 
 ## Analysis and Conclusion:
